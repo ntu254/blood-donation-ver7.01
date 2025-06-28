@@ -11,7 +11,6 @@ import {
   MessageSquareWarning,
   History,
   Warehouse,
-  ClipboardList,
   Calendar,
   FileText,
   UserCog,

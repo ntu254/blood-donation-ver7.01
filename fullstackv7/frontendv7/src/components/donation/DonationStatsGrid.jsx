@@ -1,6 +1,6 @@
 // src/components/donation/DonationStatsGrid.jsx
 import React from 'react';
-import { Activity, Award, Calendar, Clock, Droplets } from 'lucide-react';
+import { Activity, Award, Calendar, Clock } from 'lucide-react';
 
 const DonationStatsGrid = ({ stats }) => {
   const statsConfig = [

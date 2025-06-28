@@ -136,7 +136,7 @@ export const useAdminUserForm = (userId, mode = 'view') => {
     if (!requestData.lastDonationDate) requestData.lastDonationDate = null;
 
     try {
-      const _updatedUser = await userService.updateUserByAdmin(
+      await userService.updateUserByAdmin(
         userId,
         requestData
       );

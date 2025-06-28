@@ -7,7 +7,6 @@ import inventoryService from '../../services/inventoryService';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import PageHeader from '../../components/common/PageHeader';
 import TabNavigation from '../../components/common/TabNavigation';
-import InventoryCard from '../../components/inventory/InventoryCard';
 import BloodUnitCard from '../../components/inventory/BloodUnitCard';
 import InventorySummaryCard from '../../components/inventory/InventorySummaryCard';
 import EmptyState from '../../components/common/EmptyState';

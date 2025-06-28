@@ -18,7 +18,6 @@ const AdminTestResultsPage = () => {
     selectedProcess,
     showTestResultModal,
     setShowTestResultModal,
-    handleTestResult,
     setSelectedProcess,
     fetchTestResults,
   } = useTestResults();

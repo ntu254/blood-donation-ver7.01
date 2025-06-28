@@ -6,7 +6,6 @@ import AdminContentWrapper from '../../components/admin/AdminContentWrapper';
 import DataTable from '../../components/common/DataTable';
 import StatusBadge from '../../components/common/StatusBadge';
 import Button from '../../components/common/Button';
-import Modal from '../../components/common/Modal';
 import HealthCheckForm from '../../components/admin/HealthCheckForm';
 import { useHealthChecks } from '../../hooks/useHealthChecks';
 import { DONATION_STATUS } from '../../utils/constants';
@@ -19,7 +18,6 @@ const AdminHealthCheckPage = () => {
     selectedProcess,
     showHealthCheckModal,
     setShowHealthCheckModal,
-    handleHealthCheck,
     setSelectedProcess,
     fetchHealthChecks,
   } = useHealthChecks();

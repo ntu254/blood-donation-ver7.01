@@ -139,7 +139,7 @@ export const formatCurrency = amount => {
 /**
  * Get status color classes for different status types
  */
-export const getStatusColor = (status, _type = 'default') => {
+export const getStatusColor = (status) => {
   const statusColors = {
     // Blog post status
     PUBLISHED: 'bg-green-100 text-green-800 border-green-200',
@@ -198,7 +198,7 @@ export const getRoleSpecificClasses = role => {
 /**
  * Get status-specific CSS classes for different entities
  */
-export const getStatusSpecificClasses = (status, entity = 'default') => {
+export const getStatusSpecificClasses = (status) => {
   // Use the same function as getStatusColor for consistency
-  return getStatusColor(status, entity);
+  return getStatusColor(status);
 };

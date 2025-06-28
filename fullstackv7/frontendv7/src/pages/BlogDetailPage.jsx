@@ -5,7 +5,6 @@ import { useParams, Link } from 'react-router-dom';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import {
   BlogDetailHeader,
-  BlogDetailMeta,
   BlogDetailContent,
 } from '../components/blog';
 import { useBlogDetail } from '../hooks/useBlogDetail';

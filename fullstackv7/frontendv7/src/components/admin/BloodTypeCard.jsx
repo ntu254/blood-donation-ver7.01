@@ -2,7 +2,6 @@
 import React from 'react';
 import { Edit3, Trash2 } from 'lucide-react';
 
-import Button from '../common/Button';
 import ActionButtonGroup from '../common/ActionButtonGroup';
 
 const BloodTypeCard = ({ bloodType, onEdit, onDelete, canEdit = false }) => {

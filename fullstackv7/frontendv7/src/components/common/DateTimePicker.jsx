@@ -6,7 +6,6 @@ const DateTimePicker = ({
   label,
   value,
   onChange,
-  _required = false,
   disabled = false,
   minDate = null,
   maxDate = null,
@@ -67,7 +66,6 @@ const DateTimePicker = ({
     const year = currentMonth.getFullYear();
     const month = currentMonth.getMonth();
     const firstDay = new Date(year, month, 1);
-    const _lastDay = new Date(year, month + 1, 0);
     const startDate = new Date(firstDay);
     startDate.setDate(startDate.getDate() - firstDay.getDay());
 

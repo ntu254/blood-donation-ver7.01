@@ -18,7 +18,6 @@ const AdminBloodCollectionPage = () => {
     selectedProcess,
     showCollectionModal,
     setShowCollectionModal,
-    handleBloodCollection,
     setSelectedProcess,
     fetchCollections,
   } = useBloodCollection();

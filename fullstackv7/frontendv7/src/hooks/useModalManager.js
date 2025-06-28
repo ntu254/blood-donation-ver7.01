@@ -38,7 +38,7 @@ export const useModalManager = () => {
     },
   });
 
-  const openModal = (modalType, _process = null) => {
+  const openModal = (modalType) => {
     setModals(prev => ({
       ...prev,
       [`show${modalType.charAt(0).toUpperCase() + modalType.slice(1)}Modal`]: true,

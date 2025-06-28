@@ -105,7 +105,7 @@ class UserService {
   }
 
   // Alias for getCurrentUserProfile for consistency with UserProfileForm
-  async getProfile(_forceRefresh = false) {
+  async getProfile() {
     return this.getCurrentUserProfile();
   }
 

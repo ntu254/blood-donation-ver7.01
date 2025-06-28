@@ -57,7 +57,7 @@ const AppointmentTable = ({
     {
       key: 'appointment',
       title: 'Thông tin lịch hẹn',
-      render: (value, _process) =>
+      render: (value) =>
         value ? (
           <div className='space-y-1'>
             <div className='flex items-center space-x-1'>

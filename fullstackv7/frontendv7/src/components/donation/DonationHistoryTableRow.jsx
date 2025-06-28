@@ -4,7 +4,6 @@ import {
   Calendar,
   MapPin,
   Droplets,
-  FileText,
   Building2,
   Award,
   Activity,

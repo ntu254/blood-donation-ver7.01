@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Clock, User, Edit, Trash2 } from 'lucide-react';
 import Button from '../common/Button';
-import { _formatDate } from '../../utils/formatters';
+import { formatDate } from '../../utils/formatters';
 
 const BlogDetailMeta = ({ 
   post, 

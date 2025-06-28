@@ -8,11 +8,9 @@ import {
   CheckCircle,
   XCircle,
   ShieldQuestion,
-  ArrowDownUp,
 } from 'lucide-react';
 
 import userService from '../../services/userService';
-import Button from '../common/Button';
 import StatusBadge from '../common/StatusBadge';
 import DateTimeDisplay from '../common/DateTimeDisplay';
 import ActionButtonGroup from '../common/ActionButtonGroup';

@@ -1,5 +1,4 @@
 // src/components/admin/bloodTypes/BloodTypePageHeader.jsx
-import React from 'react';
 import { PlusCircle } from 'lucide-react';
 
 const BloodTypePageHeader = ({ onAddNew, isAdmin, isLoading }) => {

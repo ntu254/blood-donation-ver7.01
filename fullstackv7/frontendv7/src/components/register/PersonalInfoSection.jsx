@@ -1,6 +1,6 @@
 // src/components/register/PersonalInfoSection.jsx
 import React from 'react';
-import { User, Mail, Phone, MapPin, Calendar, Droplets } from 'lucide-react';
+import { User, Mail, Phone, Calendar, Droplets } from 'lucide-react';
 import DatePicker from '../common/DatePicker';
 import AddressPicker from '../common/AddressPicker';
 
