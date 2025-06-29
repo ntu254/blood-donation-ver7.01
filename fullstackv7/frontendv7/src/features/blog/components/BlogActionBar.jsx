@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { PlusCircle } from 'lucide-react';
-import Button from '../common/Button';
+import Button from '../../../components/common/Button';
 
 const BlogActionBar = ({ canCreate = false }) => {
   if (!canCreate) return null;

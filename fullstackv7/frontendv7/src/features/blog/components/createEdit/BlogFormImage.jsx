@@ -1,6 +1,6 @@
 // src/components/blog/createEdit/BlogFormImage.jsx
 import React from 'react';
-import InputField from '../../common/InputField';
+import InputField from '../../../../components/common/InputField';
 
 const BlogFormImage = ({ imageUrl, onChange, disabled }) => {
   return (

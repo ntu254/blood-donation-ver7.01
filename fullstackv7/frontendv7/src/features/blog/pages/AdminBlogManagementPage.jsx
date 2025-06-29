@@ -3,14 +3,14 @@ import React from 'react';
 import { Eye, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-import AdminPageLayout from '../../components/admin/AdminPageLayout';
-import AdminContentWrapper from '../../components/admin/AdminContentWrapper';
+import AdminPageLayout from '../../../components/admin/AdminPageLayout';
+import AdminContentWrapper from '../../../components/admin/AdminContentWrapper';
 import { 
   BlogManagementTabs, 
   BlogPostGrid, 
   BlogManagementEmptyState 
-} from '../../components/blog';
-import { useBlogManagement } from '../../hooks/useBlogManagement';
+} from '../components';
+import { useBlogManagement } from '../hooks/useBlogManagement';
 
 const AdminBlogManagementPage = () => {
   const {

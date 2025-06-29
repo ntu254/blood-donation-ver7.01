@@ -1,7 +1,7 @@
 // src/components/blog/BlogManagementTabs.jsx
 import React from 'react';
 import { CheckCircle, Clock } from 'lucide-react';
-import TabNavigation from '../common/TabNavigation';
+import TabNavigation from '../../../components/common/TabNavigation';
 
 const BlogManagementTabs = ({ 
   activeTab, 

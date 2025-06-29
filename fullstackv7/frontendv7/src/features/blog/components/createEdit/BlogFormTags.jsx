@@ -1,6 +1,6 @@
 // src/components/blog/createEdit/BlogFormTags.jsx
 import React from 'react';
-import InputField from '../../common/InputField';
+import InputField from '../../../../components/common/InputField';
 
 const BlogFormTags = ({ value, onChange, disabled }) => {
   return (

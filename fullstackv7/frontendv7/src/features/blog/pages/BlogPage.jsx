@@ -3,15 +3,15 @@ import React, { useState, useEffect, useCallback } from 'react';
 import toast from 'react-hot-toast';
 
 import blogPostService from '../services/blogPostService';
-import { useAuth } from '../hooks/useAuth';
-import { BLOG_PERMISSIONS } from '../utils/constants';
-import LoadingSpinner from '../components/common/LoadingSpinner';
+import { useAuth } from '../../../hooks/useAuth';
+import { BLOG_PERMISSIONS } from '../../../utils/constants';
+import LoadingSpinner from '../../../components/common/LoadingSpinner';
 import {
   BlogHeader,
   BlogActionBar,
   BlogGrid,
   BlogEmptyState,
-} from '../components/blog';
+} from '../components';
 
 const BlogPage = () => {
   const [posts, setPosts] = useState({

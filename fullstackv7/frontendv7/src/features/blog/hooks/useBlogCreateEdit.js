@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
 import blogPostService from '../services/blogPostService';
-import { useAuth } from './useAuth';
+import { useAuth } from '../../../hooks/useAuth';
 
 export const useBlogCreateEdit = () => {
   const { id } = useParams();

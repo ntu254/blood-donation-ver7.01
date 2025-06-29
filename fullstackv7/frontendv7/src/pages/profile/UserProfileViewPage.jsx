@@ -42,7 +42,8 @@ const UserProfileViewPage = () => {
   }, [fetchUserData]);
 
   // Component hiển thị chi tiết
-  const DetailItem = ({ icon: IconComponent, label, value, highlight = false }) => {
+  const DetailItem = ({ icon: _Icon, label, value, highlight = false }) => {
+    const IconComponent = _Icon;
     return (
       <div className='py-3 sm:grid sm:grid-cols-3 sm:gap-4'>
         <dt className='text-sm font-medium text-gray-500 flex items-center'>

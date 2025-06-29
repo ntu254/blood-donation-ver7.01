@@ -2,11 +2,11 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-import LoadingSpinner from '../components/common/LoadingSpinner';
+import LoadingSpinner from '../../../components/common/LoadingSpinner';
 import {
   BlogDetailHeader,
   BlogDetailContent,
-} from '../components/blog';
+} from '../components';
 import { useBlogDetail } from '../hooks/useBlogDetail';
 
 const BlogDetailPage = () => {
