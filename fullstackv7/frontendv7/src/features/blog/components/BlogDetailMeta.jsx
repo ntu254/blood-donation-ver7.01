@@ -5,6 +5,7 @@ import { Clock, User, Edit, Trash2 } from 'lucide-react';
 import Button from '../../../components/common/Button';
 import { formatDate } from '../../../utils/formatters';
 
+
 const BlogDetailMeta = ({ 
   post, 
   canEdit, 

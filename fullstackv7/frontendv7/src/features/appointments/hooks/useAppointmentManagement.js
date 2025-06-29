@@ -2,8 +2,8 @@
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
 import appointmentService from '../services/appointmentService';
-import donationService from '../services/donationService';
-import { DONATION_STATUS } from '../utils/constants';
+import donationService from '../../services/donationService';
+import { DONATION_STATUS } from '../../utils/constants';
 
 export const useAppointmentManagement = () => {
   const [appointments, setAppointments] = useState([]);

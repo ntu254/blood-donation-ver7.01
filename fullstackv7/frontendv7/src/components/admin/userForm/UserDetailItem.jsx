@@ -2,7 +2,7 @@
 import React from 'react';
 
 const UserDetailItem = ({
-  icon: IconComponent,
+  icon: _Icon,
   label,
   value,
   highlight = false,
@@ -17,10 +17,11 @@ const UserDetailItem = ({
   errors = {},
   isSubmitting = false,
 }) => {
+  const Icon = _Icon;
   return (
     <div className='py-3 sm:grid sm:grid-cols-3 sm:gap-4'>
       <dt className='text-sm font-medium text-gray-500 flex items-center'>
-        <IconComponent size={16} className='mr-2 text-red-600' />
+        <Icon size={16} className='mr-2 text-red-600' />
         {label}
         {isEditMode && isEditable && (
           <span className='text-red-500 ml-1'>*</span>
