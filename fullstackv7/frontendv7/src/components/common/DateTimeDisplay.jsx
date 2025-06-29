@@ -1,6 +1,5 @@
 // src/components/common/DateTimeDisplay.jsx
 import React from 'react';
-import { formatDate } from '../../utils/formatters';
 
 const DateTimeDisplay = ({
   date,
