@@ -1,6 +1,6 @@
 // src/components/blog/createEdit/BlogFormTitle.jsx
 import React from 'react';
-import InputField from '../../common/InputField';
+import InputField from '../../../../components/common/InputField';
 
 const BlogFormTitle = ({ value, onChange, disabled }) => {
   return (

@@ -1,7 +1,7 @@
 // src/components/blog/createEdit/BlogFormActions.jsx
 import React from 'react';
 import { Save } from 'lucide-react';
-import Button from '../../common/Button';
+import Button from '../../../../components/common/Button';
 
 const BlogFormActions = ({ 
   isEdit, 

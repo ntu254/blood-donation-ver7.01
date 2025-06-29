@@ -1,7 +1,7 @@
 // src/components/blog/BlogGrid.jsx
 import React from 'react';
 import BlogCard from './BlogCard';
-import Pagination from '../common/Pagination';
+import Pagination from '../../../components/common/Pagination';
 
 const BlogGrid = ({ posts, currentPage, totalPages, onPageChange }) => {
   return (

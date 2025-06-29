@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import blogPostService from '../services/blogPostService';
-import { useAuth } from './useAuth';
-import { BLOG_PERMISSIONS } from '../utils/constants';
+import { useAuth } from '../../../hooks/useAuth';
+import { BLOG_PERMISSIONS } from '../../../utils/constants';
 
 export const useBlogDetail = (postId) => {
   const navigate = useNavigate();

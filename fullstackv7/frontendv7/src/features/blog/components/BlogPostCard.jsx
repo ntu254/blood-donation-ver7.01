@@ -12,11 +12,11 @@ import {
 import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
-import StatusBadge from '../common/StatusBadge';
-import DateTimeDisplay from '../common/DateTimeDisplay';
-import InfoRow from '../common/InfoRow';
-import ActionButtonGroup from '../common/ActionButtonGroup';
-import blogPostService from '../../services/blogPostService';
+import StatusBadge from '../../../components/common/StatusBadge';
+import DateTimeDisplay from '../../../components/common/DateTimeDisplay';
+import InfoRow from '../../../components/common/InfoRow';
+import ActionButtonGroup from '../../../components/common/ActionButtonGroup';
+import blogPostService from '../services/blogPostService';
 
 const BlogPostCard = ({ post, onStatusChange, onDelete }) => {
   // Safe access to post properties

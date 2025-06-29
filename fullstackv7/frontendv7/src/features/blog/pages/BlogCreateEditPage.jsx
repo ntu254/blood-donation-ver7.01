@@ -1,8 +1,8 @@
 // src/pages/BlogCreateEditPage.jsx
 import React from 'react';
-import LoadingSpinner from '../components/common/LoadingSpinner';
+import LoadingSpinner from '../../../components/common/LoadingSpinner';
 import { useBlogCreateEdit } from '../hooks/useBlogCreateEdit';
-import { BlogFormHeader, BlogCreateEditForm } from '../components/blog/createEdit';
+import { BlogFormHeader, BlogCreateEditForm } from '../components/createEdit';
 
 const BlogCreateEditPage = () => {
   const {
