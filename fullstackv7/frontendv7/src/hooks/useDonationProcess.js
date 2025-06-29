@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
 import donationService from '../services/donationService';
-import appointmentService from '../services/appointmentService';
+import appointmentService from '../features/appointments/services/appointmentService';
 
 export const useDonationProcess = () => {
   const [processes, setProcesses] = useState([]);

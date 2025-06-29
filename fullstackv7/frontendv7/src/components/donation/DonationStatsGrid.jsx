@@ -40,19 +40,22 @@ const DonationStatsGrid = ({ stats }) => {
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
-      {statsConfig.map(({ key, label, value, icon: Icon, iconBg, iconColor }) => (
-        <div key={key} className='bg-white rounded-xl shadow-sm p-6 border border-gray-100'>
-          <div className='flex items-center'>
-            <div className={`p-3 rounded-lg ${iconBg}`}>
-              <Icon className={`w-6 h-6 ${iconColor}`} />
-            </div>
-            <div className='ml-4'>
-              <p className='text-sm font-medium text-gray-600'>{label}</p>
-              <p className='text-2xl font-bold text-gray-900'>{value}</p>
+      {statsConfig.map(({ key, label, value, icon: _Icon, iconBg, iconColor }) => {
+        const Icon = _Icon;
+        return (
+          <div key={key} className='bg-white rounded-xl shadow-sm p-6 border border-gray-100'>
+            <div className='flex items-center'>
+              <div className={`p-3 rounded-lg ${iconBg}`}>
+                <Icon className={`w-6 h-6 ${iconColor}`} />
+              </div>
+              <div className='ml-4'>
+                <p className='text-sm font-medium text-gray-600'>{label}</p>
+                <p className='text-2xl font-bold text-gray-900'>{value}</p>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
