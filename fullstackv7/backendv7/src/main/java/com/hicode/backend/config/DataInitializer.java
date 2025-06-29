@@ -2,9 +2,9 @@ package com.hicode.backend.config;
 
 import com.hicode.backend.model.entity.*;
 import com.hicode.backend.model.enums.*;
-import com.hicode.backend.repository.BloodTypeCompatibilityRepository;
-import com.hicode.backend.repository.BloodTypeRepository;
-import com.hicode.backend.repository.RoleRepository;
+import com.hicode.backend.features.blood.repository.BloodTypeCompatibilityRepository;
+import com.hicode.backend.features.blood.repository.BloodTypeRepository;
+import com.hicode.backend.features.user.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
