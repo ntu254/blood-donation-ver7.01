@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
-import donationService from '../../services/donationService';
+import donationService from '../../features/donation/services/donationService';
 import LoadingSpinner from '../common/LoadingSpinner';
 import { Calendar, MapPin } from 'lucide-react';
 

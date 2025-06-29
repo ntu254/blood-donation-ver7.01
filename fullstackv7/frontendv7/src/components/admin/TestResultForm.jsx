@@ -4,7 +4,7 @@ import { TestTube, CheckCircle, XCircle } from 'lucide-react';
 import Modal from '../common/Modal';
 import Button from '../common/Button';
 import InputField from '../common/InputField';
-import donationService from '../../services/donationService';
+import donationService from '../../features/donation/services/donationService';
 import toast from 'react-hot-toast';
 
 const TestResultForm = ({ processId, isOpen, onClose, onSuccess }) => {

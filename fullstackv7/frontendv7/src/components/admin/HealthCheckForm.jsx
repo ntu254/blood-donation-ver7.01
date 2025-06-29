@@ -4,7 +4,7 @@ import { Heart, Scale, Thermometer, Activity } from 'lucide-react';
 import Button from '../common/Button';
 import InputField from '../common/InputField';
 import Modal from '../common/Modal';
-import donationService from '../../services/donationService';
+import donationService from '../../features/donation/services/donationService';
 import toast from 'react-hot-toast';
 
 const HealthCheckForm = ({ processId, isOpen, onClose, onSuccess }) => {
