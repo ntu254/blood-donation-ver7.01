@@ -1,14 +1,14 @@
 // src/pages/MyAppointmentsPage.jsx
 import React from 'react';
-import MainLayout from '../components/layout/MainLayout';
-import LoadingSpinner from '../components/common/LoadingSpinner';
-import Pagination from '../components/common/Pagination';
+import MainLayout from '../../components/layout/MainLayout';
+import LoadingSpinner from '../../components/common/LoadingSpinner';
+import Pagination from '../../components/common/Pagination';
 import { useMyAppointments } from '../hooks/useMyAppointments';
 import {
   AppointmentsPageHeader,
   AppointmentsList,
   RescheduleModal,
-} from '../components/appointments';
+} from '../components';
 
 const MyAppointmentsPage = () => {
   const {

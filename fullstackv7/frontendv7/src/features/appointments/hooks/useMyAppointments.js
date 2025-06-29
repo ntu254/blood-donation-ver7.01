@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
 import { appointmentService } from '../services/appointmentService';
-import { useAuth } from './useAuth';
+import { useAuth } from '../../hooks/useAuth';
 
 const PAGE_SIZE = 5;
 

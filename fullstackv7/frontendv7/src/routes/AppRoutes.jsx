@@ -12,7 +12,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 import ForbiddenPage from '../pages/ForbiddenPage';
 import UserProfilePage from '../pages/UserProfilePage';
 import MyDonationHistoryPage from '../pages/MyDonationHistoryPage';
-import MyAppointmentsPage from '../pages/MyAppointmentsPage';
+import MyAppointmentsPage from '../features/appointments/pages/MyAppointmentsPage';
 import BloodCompatibilityCheckerPage from '../pages/BloodCompatibilityCheckerPage';
 import BlogPage from '../features/blog/pages/BlogPage';
 import BlogDetailPage from '../features/blog/pages/BlogDetailPage';
