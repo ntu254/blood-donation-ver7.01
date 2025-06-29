@@ -10,7 +10,7 @@ import {
   CreateAppointmentModal,
   RescheduleAppointmentModal,
 } from '../../components/admin/admin_appointments';
-import { useAppointmentManagement } from '../../hooks/useAppointmentManagement';
+import { useAppointmentManagement } from '../../features/appointments/hooks/useAppointmentManagement';
 
 const AdminAppointmentManagementPage = () => {
   const {
